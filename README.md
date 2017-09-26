@@ -2,7 +2,7 @@ This fails when using `jsdom`, but not when using the `node` env.
 
 Using `node`:
 
-```JS
+```
 $ npx jest --env node
  FAIL  test/index.test.js
   ● exception promise
@@ -30,7 +30,7 @@ Ran all test suites.
 
 Using `jsdom`:
 
-```js
+```
 $ npx jest --env jsdom
  FAIL  test/index.test.js (5.114s)
   ● exception promise
